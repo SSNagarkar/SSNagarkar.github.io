@@ -432,11 +432,15 @@ button:focus {
 }
 .aboutme-image{
   height: 15rem;
-  @media (max-width: 1850px) {
-    height:25rem;
-    margin-left:10rem;
-    /* margin-bottom:2rem; */
+    
+}
+
+@media (max-width: 1850px) {
+  .aboutme-image{
+  height:25rem;
+  margin-left:10rem;
   }
+  /* margin-bottom:2rem; */
 }
 
 .about_para1{
